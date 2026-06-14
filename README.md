@@ -10,6 +10,7 @@ The database schema was created using primary and foreign keys to ensure data in
 To support analytical and machine learning tasks, a larger dataset was generated using AI-assisted synthetic data generation in Claude AI, allowing for more realistic analyses and model training while preserving data consistency.
 
 ![Diagram](images/diagramDB.jpg)
+*Fig. 1. Entity relationship diagram of the veterinary clinic database.*
 
 # Excel 
 Microsoft Excel was used to perform business-oriented data analysis and reporting. The analysis was based on Pivot Tables, Pivot Charts, and calculated KPIs, providing insights into the veterinary clinic's operations.
@@ -44,6 +45,7 @@ The summary page presents the most important KPIs and provides a high-level over
 - cancelled visits
 - general business performance indicators
 ![Summary](images/podsumowanie.gif)
+*Fig. 2. Power BI dashboard presenting key clinic performance indicators.*
 2. Patients and Treatments
 
 This section focuses on patient activity and treatment analysis:
@@ -52,6 +54,7 @@ This section focuses on patient activity and treatment analysis:
 - analysis by animal species
 - most active patients
 ![PatientsTreatments](images/pacjenci.gif)
+*Fig. 3. Dashboard showing patient analysis and treatment types.*
 3. Veterinarians
 
 This section evaluates veterinarian performance through:
@@ -60,6 +63,7 @@ This section evaluates veterinarian performance through:
 - average treatment cost
 - comparison of veterinarian activity and productivity
 ![Veterinarians](images/lekarze.gif)
+*Fig. 4. Dashboard showing veterinarian analysis.*
 
 The dashboard supports interactive exploration of data and provides valuable insights into clinic operations, patient care, and financial performance.
 
@@ -92,6 +96,7 @@ Models tested:
 Evaluation metrics: R^2 Score, Mean Absolute Error 
 
 ![Regression](images/regression.jpg)
+*Fig. 5. Comparison of actual and predicted treatment costs.*
 
 2. Classification
 
@@ -104,6 +109,7 @@ Models tested:
 Evaluation metrics: accuracy, precision, recall, F1 Score, ROC-AUC
 
 ![Classification](images/classification.jpg)
+*Fig. 6. Comparison of actual and predicted classifications for cheap and expensive treatments*
 
 Additional experiments included:
 - hyperparameter tuning using GridSearchCV
