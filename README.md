@@ -9,7 +9,7 @@ The database schema was created using primary and foreign keys to ensure data in
 
 To support analytical and machine learning tasks, a larger dataset was generated using AI-assisted synthetic data generation in Claude AI, allowing for more realistic analyses and model training while preserving data consistency.
 
-![Diagram](diagramDB.jpg)
+![Diagram](images/diagramDB.jpg)
 
 # Excel 
 Microsoft Excel was used to perform business-oriented data analysis and reporting. The analysis was based on Pivot Tables, Pivot Charts, and calculated KPIs, providing insights into the veterinary clinic's operations.
