@@ -96,6 +96,7 @@ Models tested:
 Evaluation metrics: R^2 Score, Mean Absolute Error 
 
 ![Regression](images/regression.jpg)
+
 *Fig. 5. Comparison of actual and predicted treatment costs.*
 
 2. Classification
@@ -109,6 +110,7 @@ Models tested:
 Evaluation metrics: accuracy, precision, recall, F1 Score, ROC-AUC
 
 ![Classification](images/classification.jpg)
+
 *Fig. 6. Comparison of actual and predicted classifications for cheap and expensive treatments*
 
 Additional experiments included:
