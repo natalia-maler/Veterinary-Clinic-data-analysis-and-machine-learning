@@ -36,6 +36,7 @@ An interactive Power BI dashboard was developed to visualize key operational and
 
 Dashboard Sections
 1. Summary
+
 The summary page presents the most important KPIs and provides a high-level overview of clinic operations, including:
 - total revenue
 - number of treatments
@@ -44,6 +45,7 @@ The summary page presents the most important KPIs and provides a high-level over
 - general business performance indicators
 ![Summary](images/podsumowanie.gif)
 2. Patients and Treatments
+
 This section focuses on patient activity and treatment analysis:
 - treatment distribution by category
 - average and total treatment costs
@@ -51,6 +53,7 @@ This section focuses on patient activity and treatment analysis:
 - most active patients
 ![PatientsTreatments](images/pacjenci.gif)
 3. Veterinarians
+
 This section evaluates veterinarian performance through:
 - number of visits handled
 - total revenue generated
@@ -78,6 +81,7 @@ Machine Learning
 
 Two machine learning tasks were implemented:
 1. Regression
+
 The objective was to predict treatment cost based on selected treatment and patient characteristics.
 
 Models tested:
@@ -88,6 +92,7 @@ Models tested:
 Evaluation metrics: R^2 Score, Mean Absolute Error 
 
 2. Classification
+
 The objective was to predict whether a treatment would be classified as expensive (cost > 100).
 
 Models tested:
