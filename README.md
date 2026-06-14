@@ -90,7 +90,9 @@ Models tested:
 - XGBoost Regressor
 
 Evaluation metrics: R^2 Score, Mean Absolute Error 
+
 ![Regression](images/regression.jpg)
+
 2. Classification
 
 The objective was to predict whether a treatment would be classified as expensive (cost > 100).
@@ -100,6 +102,7 @@ Models tested:
 - Random Forest Classifier
 
 Evaluation metrics: accuracy, precision, recall, F1 Score, ROC-AUC
+
 ![Classification](images/classification.jpg)
 
 Additional experiments included:
